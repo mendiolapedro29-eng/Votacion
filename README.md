@@ -25,8 +25,10 @@ ________________________________________
 Este documento describe el diseño técnico y funcional de un Sistema de Votación Digital para el Perú, orientado a garantizar procesos electorales transparentes, confiables y seguros. El sistema incorpora mecanismos modernos para validar la identidad del votante, combatir automatizaciones fraudulentas y proporcionar información detallada de candidatos y partidos.
 ________________________________________
 2. Objetivos del Sistema
+   
 2.1 Objetivo General
 Garantizar un proceso de votación digital seguro, verificable y transparente, manteniendo los principios electorales del Perú.
+
 2.2 Objetivos Específicos
 - Verificar que cada votante sea un ser humano mediante CAPTCHA.
 - Validar identidad ciudadana por DNI y biometría.
@@ -35,6 +37,7 @@ Garantizar un proceso de votación digital seguro, verificable y transparente, m
 - Facilitar el conteo rápido y la auditoría del proceso.
 ________________________________________
 3. Flujo Mejorado del Proceso de Votación
+
 3.1 Acceso del Ciudadano
 1.	El usuario ingresa a la plataforma digital.
 2.	El sistema solicita ingresar su DNI.
@@ -44,6 +47,7 @@ ________________________________________
 
 3.2 Información de Candidatos y Partidos
 Antes de elegir, el sistema muestra un módulo detallado para cada candidato, que incluye:
+
 Información del Candidato
 - Nombre completo
 - Fotografía
@@ -109,22 +113,27 @@ ________________________________________
 8.	Módulo de Auditoría (Blockchain opcional)
 ________________________________________
 5. Base de Datos (Ampliada)
+
 Tabla: Candidatos
+
 <img width="339" height="333" alt="image" src="https://github.com/user-attachments/assets/5a9b88bc-5057-4e22-bf25-d5eb294abd54" />
 
 
 ________________________________________
 Tabla: Partidos Políticos
+
 <img width="315" height="285" alt="image" src="https://github.com/user-attachments/assets/09c34df8-2a22-4de9-a482-2937ac32c70b" />
 
 
 ________________________________________
 Tabla: Electores
+
 <img width="263" height="209" alt="image" src="https://github.com/user-attachments/assets/c6c7e5b0-05e0-49bd-ac9e-88b0fb58040a" />
 
 
 ________________________________________
 Tabla: Votos
+
 <img width="209" height="191" alt="image" src="https://github.com/user-attachments/assets/20ed787e-e7f5-4f12-bec6-0774f3f295e9" />
 
 
@@ -178,6 +187,7 @@ ________________________________________
 La versión mejorada del Sistema de Votación Digital del Perú incorpora herramientas modernas como CAPTCHA, información detallada de candidatos y partidos, y una arquitectura sólida basada en seguridad y transparencia. Esto permite un voto más informado, seguro y auditable.
 ________________________________________
 11. imagenes del sistema
+
 <img width="866" height="487" alt="image" src="https://github.com/user-attachments/assets/e106563f-2497-47de-8374-ff20c7e963d8" />
 
 <img width="779" height="437" alt="image" src="https://github.com/user-attachments/assets/f44b2b92-46b5-4fe9-b5aa-da5cfdfb5a91" />
