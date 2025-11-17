@@ -87,15 +87,20 @@ ________________________________________
 4.	Se genera un token anónimo del voto.
 5.	El voto se cifra y se envía al servidor central.
 ________________________________________
-4. Arquitectura del Sistema 
+4. Arquitectura del Sistema
+
 4.1 Módulos Principales
+
 1.	Módulo CAPTCHA
 - Protege contra bots
 - ReCaptcha / Captcha dinámico propio
+  
 2.	Módulo de Validación de Identidad
 - DNI
 - Estado habilitado
+
 3.	Módulo de Perfil de Candidatos y Partidos
+
 - Gestión de fichas descriptivas
 - Base de datos de biografías
 - Datos estadísticos (afiliados, congresistas)
@@ -105,9 +110,11 @@ ________________________________________
 - Boleta inteligente
 - Resumen previo
 - Confirmación final
-6.	Módulo de Seguridad
+
+5.	Módulo de Seguridad
 - Cifrado AES-256 + RSA 4096
 - Hash SHA-3 para integridad
+
 6.	Módulo de Conteo
 7.	Módulo de Reportes y Actas
 8.	Módulo de Auditoría (Blockchain opcional)
