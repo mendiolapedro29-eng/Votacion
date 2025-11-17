@@ -60,6 +60,7 @@ Información del Candidato
 - Propuestas resumidas
 - Propuestas detalladas
 - Vicepresidentes (perfil y funciones potenciales)
+
 Información del Partido Político
 - Nombre del partido
 - Logotipo
@@ -71,8 +72,11 @@ Información del Partido Político
 - Participaciones electorales previas
 - Presidente del partido
 - Integrantes relevantes
+
 Visualización
+
 La información aparecerá organizada en pestañas:
+
 - Biografía
 - Propuestas
 - Partido Político
@@ -153,7 +157,9 @@ ________________________________________
 - Detección de anomalías
 ________________________________________
 7. Interfaz del Usuario
+
 7.1 Pantallas Clave
+
 1.	Ingreso de DNI + CAPTCHA
 2.	Verificación biométrica
 3.	Panel informativo del candidato
