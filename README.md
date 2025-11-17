@@ -173,23 +173,33 @@ ________________________________________
 6.	Pantalla de agradecimiento
 ________________________________________
 8. Caso de Uso Mejorados
+   
 CU01 – Verificar si es humano
+
 Actor: Ciudadano
+
 Precondición: Acceso al sistema
+
 Flujo:
+
 1.	Ingresa DNI
 2.	Completa CAPTCHA
 3.	El sistema valida
 ________________________________________
 CU02 – Consultar información de candidatos
+
 Actor: Ciudadano
+
 Descripción: El usuario revisa la biografía, ideología, propuestas, partido y estadísticas.
 ________________________________________
 CU03 – Emitir el voto
+
 Actor: Ciudadano
+
 El votante elige su candidato basado en información completa.
 ________________________________________
 9. Beneficios de la Mejora
+
 - Se evita fraude mediante bots.
 - Los votantes tienen acceso completo a la información de candidatos.
 - Se incentiva un voto informado.
