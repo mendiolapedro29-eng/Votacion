@@ -1,6 +1,14 @@
+Grupo 05:
+- PEDRO
+- EVER
+- JHON
+- FREDDY 
+- VICTOR
+- JEFERSON
+
 # Sistema de Votación Digital - Perú
 
-Sistema de votación digital desarrollado con React + Node.js (Frontend) y Java JSP/Servlets (Backend).
+Sistema de votación digital desarrollado con React + Vite (Frontend) y Java JSP/Servlets (Backend).
 
 ## 🚀 Características
 
