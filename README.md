@@ -86,22 +86,22 @@ ________________________________________
 4. Arquitectura del Sistema 
 4.1 Módulos Principales
 1.	Módulo CAPTCHA
-o	Protege contra bots
-o	ReCaptcha / Captcha dinámico propio
+- Protege contra bots
+- ReCaptcha / Captcha dinámico propio
 2.	Módulo de Validación de Identidad
-o	DNI
-o	Estado habilitado
+- DNI
+- Estado habilitado
 3.	Módulo de Perfil de Candidatos y Partidos
-o	Gestión de fichas descriptivas
-o	Base de datos de biografías
-o	Datos estadísticos (afiliados, congresistas)
-o	Ideología política
+- Gestión de fichas descriptivas
+- Base de datos de biografías
+- Datos estadísticos (afiliados, congresistas)
+- Ideología política
 
 4.	Módulo de Votación Electrónica
-o	Boleta inteligente
-o	Resumen previo
-o	Confirmación final
-5.	Módulo de Seguridad
+- Boleta inteligente
+- Resumen previo
+- Confirmación final
+6.	Módulo de Seguridad
 - Cifrado AES-256 + RSA 4096
 - Hash SHA-3 para integridad
 6.	Módulo de Conteo
@@ -111,22 +111,30 @@ ________________________________________
 5. Base de Datos (Ampliada)
 Tabla: Candidatos
 <img width="339" height="333" alt="image" src="https://github.com/user-attachments/assets/5a9b88bc-5057-4e22-bf25-d5eb294abd54" />
+
+
 ________________________________________
 Tabla: Partidos Políticos
 <img width="315" height="285" alt="image" src="https://github.com/user-attachments/assets/09c34df8-2a22-4de9-a482-2937ac32c70b" />
+
+
 ________________________________________
 Tabla: Electores
 <img width="263" height="209" alt="image" src="https://github.com/user-attachments/assets/c6c7e5b0-05e0-49bd-ac9e-88b0fb58040a" />
+
+
 ________________________________________
 Tabla: Votos
 <img width="209" height="191" alt="image" src="https://github.com/user-attachments/assets/20ed787e-e7f5-4f12-bec6-0774f3f295e9" />
+
+
 ________________________________________
 6. Seguridad Mejorada
-•	CAPTCHA humano/bot
-•	Multicapas de encriptación
-•	Segmentación de datos (identidad separada del voto)
-•	Auditorías automáticas
-•	Detección de anomalías
+- CAPTCHA humano/bot
+- Multicapas de encriptación
+- Segmentación de datos (identidad separada del voto)
+- Auditorías automáticas
+- Detección de anomalías
 ________________________________________
 7. Interfaz del Usuario
 7.1 Pantallas Clave
@@ -171,10 +179,15 @@ La versión mejorada del Sistema de Votación Digital del Perú incorpora herram
 ________________________________________
 11. imagenes del sistema
 <img width="866" height="487" alt="image" src="https://github.com/user-attachments/assets/e106563f-2497-47de-8374-ff20c7e963d8" />
+
 <img width="779" height="437" alt="image" src="https://github.com/user-attachments/assets/f44b2b92-46b5-4fe9-b5aa-da5cfdfb5a91" />
+
 <img width="891" height="590" alt="image" src="https://github.com/user-attachments/assets/393d98c7-7956-4968-b02c-cb84e1cd6398" />
+
 <img width="754" height="471" alt="image" src="https://github.com/user-attachments/assets/4283ce7f-89cd-418e-8aee-bdc779770734" />
+
 <img width="818" height="397" alt="image" src="https://github.com/user-attachments/assets/b88e8c48-28e4-4304-beab-65fc462ec412" />
+
 <img width="886" height="447" alt="image" src="https://github.com/user-attachments/assets/c656c1fa-eea9-448a-8502-f4e16fb22a47" />
 
 
