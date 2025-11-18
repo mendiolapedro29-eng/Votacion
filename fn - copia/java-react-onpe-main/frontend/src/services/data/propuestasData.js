@@ -174,4 +174,20 @@ export const propuestasPorPartido = {
     "Unidad",
   ],
 };
+// Función para obtener propuestas por partido
+export const obtenerPropuestas = (partidoPolitico) => {
+  return propuestasPorPartido[partidoPolitico] || [
+    "Desarrollo económico sostenible",
+    "Fortalecimiento institucional", 
+    "Bienestar social",
+    "Seguridad ciudadana",
+    "Educación de calidad"
+  ];
+};
 
+// Función para obtener todos los partidos con propuestas
+export const obtenerPartidosConPropuestas = () => {
+  return Object.keys(propuestasPorPartido);
+};
+
+export default propuestasPorPartido;
